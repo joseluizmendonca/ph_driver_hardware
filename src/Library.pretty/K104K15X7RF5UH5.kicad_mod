@@ -1,0 +1,277 @@
+(footprint "K104K15X7RF5UH5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "K104K15X7RF5UH5")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(uuid "7623b15e-c2af-4078-a6c8-11ebbcf3ee6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "K104K15X7RF5UH5"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c27ceaff-c93a-4e5d-8597-29a4a2f6e213")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.vishay.com/docs/45171/kseries.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "747bb5a1-ec7c-45cc-b864-7da03d847fe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "VISHAY - K104K15X7RF5UH5 - CAP, 0.1F, 50V, 10%, X7R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ee5daf6-f308-44a7-be25-2920a59a1e52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "VISHAY - K104K15X7RF5UH5 - CAP, 0.1F, 50V, 10%, X7R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a602aca8-ebb8-494a-bd20-5ac3789fd1b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ac4b3b0-40fd-491f-a9ed-1bb69be27420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37dc4840-eae5-4580-a616-40cbec8c0c63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "K104K15X7RF5UH5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a89c840-5857-4bd5-8ca8-ef28d36e5bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "594-K104K15X7RF5UH5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73b5d829-3cc1-4d3b-94c6-8f37c5d29d9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/K104K15X7RF5UH5?qs=G7Q6MbuZsRMViSK2a0uvBQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e5d45b-df81-4f49-8f4d-dbd499f6dfcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "K104K15X7RF5UH5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcc0abb6-0209-4d10-8032-80bb2997de4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/k104k15x7rf5uh5/vishay?region=nac"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5e32e8b-32a9-4e2d-8dbc-86247c2b58e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start 0.5 -1.3)
+		(end 4.5 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6bf601c-2ff5-4b02-a252-4896bf49a4d2")
+	)
+	(fp_line
+		(start 0.5 1.3)
+		(end 4.5 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6c9f4c0-5aa8-4659-9ebb-8a3a59957a33")
+	)
+	(fp_line
+		(start -1.625 -2.3)
+		(end 6.625 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "15822671-5fc9-4bc0-8044-6a23f0172be3")
+	)
+	(fp_line
+		(start -1.625 2.3)
+		(end -1.625 -2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4d606d53-a39c-4476-9d9e-810dc44ed407")
+	)
+	(fp_line
+		(start 0.5 -1.3)
+		(end 4.5 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd331eb6-58e2-4854-95aa-6ace66465232")
+	)
+	(fp_line
+		(start 0.5 1.3)
+		(end 0.5 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "81f85b78-cc4b-42e6-89c4-b098ce91adfe")
+	)
+	(fp_line
+		(start 4.5 -1.3)
+		(end 4.5 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b52235c1-c972-4be3-8716-bd96c36c72e9")
+	)
+	(fp_line
+		(start 4.5 1.3)
+		(end 0.5 1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "33214746-a8e5-4bac-9226-368d64032a57")
+	)
+	(fp_line
+		(start 6.625 -2.3)
+		(end 6.625 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4622b230-123e-4a3a-a0d6-4c8158d34f1e")
+	)
+	(fp_line
+		(start 6.625 2.3)
+		(end -1.625 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8da302a8-5c21-4bb3-ab2b-311aa423a95e")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 1.25 1.25)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "7a810b71-558b-455a-b4a4-15d1452facea")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0 90)
+		(size 1.25 1.25)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "af8a42c4-12ac-4f48-9eb9-601692fb9b82")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,211 @@
+(footprint "TO-92-3_L4.9-W3.7-P1.27-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.25 1.268161 180)
+		(layer "F.SilkS")
+		(uuid "902b7438-ba2e-481e-8008-d1ff36c6b214")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC547B"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e7113f2-5e75-4301-8f87-3738db2273a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_LGE-BC547B_C713613.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "920be6c2-871d-44f5-88b6-104c7c2478b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7371626f-d321-4e18-8b2b-cfb293d2d604")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C713613"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c886d576-719f-4c11-9e90-9b841ad988f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" "sim_lib\\BC547B.LIB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8d0c67c-ba7f-463f-9963-4dabbc60988d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" "Qbc547b"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b3b6dcc-eeb1-49fd-84f7-3ad2dd11816e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "NPN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec3636ed-4071-4c83-b3ce-f6d3753ef3e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "GUMMELPOON"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bb9d2ef-b4b4-4189-9b9d-956fdfba46cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=C 2=B 3=E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91c9bd3e-de83-459d-9c10-55fbd641a829")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.98 1.5)
+		(end -1.98 1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f424200-0606-4351-8149-4a5c8932737e")
+	)
+	(fp_arc
+		(start -1.98 1.5)
+		(mid 0.002708 -2.468002)
+		(end 1.976739 1.504324)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c36dc79a-a1ae-4dce-b169-50bfdad6f2a1")
+	)
+	(fp_circle
+		(center -2.48 1.5)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e3e20ae9-43cc-445d-aa65-08cd71b1ccf9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2dc0c29d-cff3-48b6-bb1b-0b9d4c6cb603")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 0.9 1.6)
+		(drill 0.700024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "645a36f0-f490-461b-9817-6cb4aa1317f6")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 0.9 1.6)
+		(drill 0.700024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82465ae8-4480-45bd-8f13-e683d886a895")
+	)
+	(pad "3" thru_hole oval
+		(at 1.27 0)
+		(size 0.9 1.6)
+		(drill 0.700024)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fe28984-a911-46e8-93c0-3673633a0f12")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TO-92-3_L4.9-W3.7-P1.27-L.wrl"
+		(offset
+			(xyz 0 0.58 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

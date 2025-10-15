@@ -1,0 +1,219 @@
+*******************************************************************************
+* Software License Agreement                                                  *
+*                                                                             *
+* © [2024] Microchip Technology Inc. and its subsidiaries                     *
+*                                                                             *
+* Subject to your compliance with the terms and conditions of the license     *
+* agreement accompanying this software, you may use this Microchip software   *
+* and any derivatives exclusively with Microchip products.                    *
+* You are responsible for complying with third party license terms applicable *
+* to your use of third party software (including open source software) that   *
+* may accompany this Microchip software. SOFTWARE IS "AS IS" NO WARRANTIES,   *
+* WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING    *
+* ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR *
+* A PARTICULAR PURPOSE. IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY          *
+* INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST *
+* OR EXPENSE OF ANY KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED,  *
+* EVEN IF MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE    *
+* FORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL        *
+* LIABILITY ON ALL CLAIMS RELATED TO THE SOFTWARE WILL NOT EXCEED AMOUNT OF   *
+* FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.             *
+*******************************************************************************
+
+.subckt MCP1416 GND IN OUT VDD
+
+C30 30 0 1n   
+X$EHYS C2_P 159 EHYS_OUTP EHYS_OUTN $$arbsourceEHYS pinnames: 1 hys OUTP OUTN 
+.subckt $$arbsourceEHYS 1 hys OUTP OUTN 
+B$OUT OUTP OUTN V=IF( V(1)>0.5,-V(HYS)/2,V(HYS)/2) 
+.ends
+V63 E61_OUTN VDD 1u
+V64 E62_OUTN GND 1u
+R1 IN GND 100Meg
+R2 VDD 333 1m
+R3 160 C2_P 1
+R4 ARB4_OUTN 0 1 TC1=0.4m TC2=-3u
+X$G60N 0 58 GND 0 $$arbsourceG60N pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG60N n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-1,-1n, 0,0, 0.05,-1n, 1.4,-5, 1.45, -8](v(n1)-v(n2)) 
+.ends
+X$G50X VDD GND G50X_OUTP 0 $$arbsourceG50X pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG50X n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=table[0,0, 4.5,0.27, 6,0.46, 8,0.76, 10,1.3, 12,1.5, 14,2.0, 16,2.25, 18,2.7](v(n1)-v(n2)) 
+.ends
+X$G60P 58 0 0 VDD $$arbsourceG60P pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG60P n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-1,-1n, 0,0, 0.05,-1n, 1.4,-5, 1.45, -8](v(n1)-v(n2)) 
+.ends
+R30 30 32 1Meg
+R51 51 0 1
+R31 0 31 1 TC1=3m TC2=3u
+R32 0 32 1 TC1=3m TC2=900n
+R53 50 0 1
+R55 155 0 1 TC1=0.4m TC2=-5u
+X$ARB1 111 121 ARB1_OUT $$arbsourceARB1 pinnames: inp inm OUT 
+.subckt $$arbsourceARB1 inp inm OUT 
+B$OUT OUT 0 V=IF( V(INP)+V(INM)=0,1,0) 
+.ends
+X$ARB2 IN VHI 111 $$arbsourceARB2 pinnames: inp inm OUT 
+.subckt $$arbsourceARB2 inp inm OUT 
+B$OUT OUT 0 V=IF( V(INP)<V(INM),1,0) 
+.ends
+X$ARB3 IN VLO 121 $$arbsourceARB3 pinnames: inp inm OUT 
+.subckt $$arbsourceARB3 inp inm OUT 
+B$OUT OUT 0 V=IF( V(INP)<V(INM),1,0) 
+.ends
+R59 OUT 59 2.27
+X$ARB4 VDD GND ARB1_OUT 0 ARB4_OUTN $$arbsourceARB4 pinnames: n1 n2 n3 OUTP OUTN 
+.subckt $$arbsourceARB4 n1 n2 n3 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,0, 4.5,209u, 6.00,300U, 10.0,400U, 12,402u, 18.0,530U](v(n1)-v(n2))*v(n3) 
+.ends
+X$ARB5 VDD GND IN 0 31 $$arbsourceARB5 pinnames: n1 n2 n3 OUTP OUTN 
+.subckt $$arbsourceARB5 n1 n2 n3 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,140, 4.5,130, 5,110, 6.00,92, 8,70,  10.0,60, 12,54, 14.0,49, 18.0,44](v(n1)-v(n2))+table[0,85, 2.5,68, 4.00,5, 5,8, 6,-5, 8,-10, 10,-12, 12,-13](v(n3)-v(n2)) 
+.ends
+X$ARB6 VDD GND IN 32 0 $$arbsourceARB6 pinnames: n1 n2 n3 OUTP OUTN 
+.subckt $$arbsourceARB6 n1 n2 n3 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,140, 4.5,130, 5,110, 6.00,93, 10.0,66, 14.0,58, 18.0,55](v(n1)-v(n2))+table[0,45, 2.5,36, 4.00,8, 5,0, 6,-5, 8,-10, 10,-15, 12,-16](v(n3)-v(n2)) 
+.ends
+X$G50 G50X_OUTP 50 51 60 $$arbsourceG50 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG50 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=(v(n1)*v(n2)/3) 
+.ends
+X$G51 0 30 0 50 $$arbsourceG51 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG51 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-5,-1U, -3,-1U, 0,0, 1m,1.49, 18,1.5](v(n1)-v(n2)) 
+.ends
+X$G52 30 0 50 0 $$arbsourceG52 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG52 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-5,-1U, -3,-1U, 0,0, 1m,1.49, 18,1.5](v(n1)-v(n2)) 
+.ends
+X$G11 111 0 30 0 $$arbsourceG11 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG11 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,10n, 0.1,0, 0.5,-0.5, 0.9,-1, 1,-1](v(n1)-v(n2)) 
+.ends
+X$G53 51 0 VDD 0 $$arbsourceG53 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG53 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-100,100, 0,0, 1,1n](v(n1)-v(n2)) 
+.ends
+EIN EHYS_OUTP EIN_N IN 158 GAIN=1 
+X$G12 121 0 30 0 $$arbsourceG12 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG12 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,1, 0.1,1, 0.5,0.5, 0.9,0, 1,-10n](v(n1)-v(n2)) 
+.ends
+X$G33 31 30 0 30 $$arbsourceG33 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG33 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-1M,-10, 0,0, 1,10N](v(n1)-v(n2)) 
+.ends
+X$G54 0 51 0 GND $$arbsourceG54 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG54 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-100,100, 0,0, 1,1n](v(n1)-v(n2)) 
+.ends
+X$G34 30 32 30 0 $$arbsourceG34 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG34 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-1M,-10, 0,0, 1,10N](v(n1)-v(n2)) 
+.ends
+X$G55 VDD GND 0 155 $$arbsourceG55 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG55 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,0, 2,79u, 4.5,80U, 6.00,81U, 10.0,99U, 18.0,100U](v(n1)-v(n2)) 
+.ends
+X$ABM1 VHI VLO 158 0 $$arbsourceABM1 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceABM1 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=(v(n1)+v(n2))/2 
+.ends
+X$U10 VHI VLO 159 $$arbsourceU10 pinnames: n1 n2 OUT 
+.subckt $$arbsourceU10 n1 n2 OUT 
+B$OUT OUT 0 V=(v(n1)-v(n2)) 
+.ends
+C60 60 RC60_P 52p   
+X$EOUT EHYS_OUTN EIN_N 160 0 $$arbsourceEOUT pinnames: inp2 inm1 OUTP OUTN 
+.subckt $$arbsourceEOUT inp2 inm1 OUTP OUTN 
+B$OUT OUTP OUTN V=IF( V(INP2)>V(INM1),1,0) 
+.ends
+G1 333 GND 155 0 GAIN=1 
+G2 333 GND ARB4_OUTN 0 GAIN=1 
+C1 IN GND 1p   
+X$G3 VDD IN VDD IN $$arbsourceG3 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG3 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-330M,-100U, -300M,-1.00U, -270M,-1.00N, 0,0, 20.0,1.00N](v(n1)-v(n2)) 
+.ends
+C2 C2_P 0 10n   
+X$G4 IN GND IN GND $$arbsourceG4 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG4 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-330M,100U, -300M,1.00U, -270M,-1.00N, 0,0, 20.0,1.00N](v(n1)-v(n2)) 
+.ends
+X$E61 E67_OUTP 63 61 E61_OUTN $$arbsourceE61 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceE61 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=(v(n1)*v(n2)) 
+.ends
+X$E62 68 64 62 E62_OUTN $$arbsourceE62 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceE62 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=(v(n1)*v(n2)) 
+.ends
+R60 60 0 100Meg
+R21 VHI 0 1.01 TC1=58.6u TC2=3.06u
+R63 63 0 1 TC1=3.5m TC2=11.6u
+X$E67 69 0 E67_OUTP 0 $$arbsourceE67 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceE67 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=table[-3.00,-3.00, 0,0, 1,2.00](v(n1)-v(n2)) 
+.ends
+R22 VLO 0 1 TC1=63.7u TC2=951n
+R64 64 0 1 TC1=3.5m TC2=14.2u
+X$E68 69 0 68 0 $$arbsourceE68 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceE68 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN V=table[-1,-2.00, 0,0, 4.00,4.00](v(n1)-v(n2)) 
+.ends
+L59 59 OUT 1n   
+X$G61 61 60 61 60 $$arbsourceG61 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG61 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-200U,-300, -150U,-150, -100U,-30.0, 0,0, 10,1N](v(n1)-v(n2)) 
+.ends
+X$G62 60 62 60 62 $$arbsourceG62 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG62 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[-200U,-400, -150U,-200, -100U,-40.0, 0,0, 10,1N](v(n1)-v(n2)) 
+.ends
+X$G21 VDD GND 0 VHI $$arbsourceG21 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG21 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,1.45, 4.5,1.45, 6.00,1.56, 10.0,1.75, 14.0,1.75, 18.0,1.84](v(n1)-v(n2)) 
+.ends
+X$G63 VDD GND 0 63 $$arbsourceG63 pinnames: inp inn OUTP OUTN 
+.subckt $$arbsourceG63 inp inn OUTP OUTN 
+B$OUT OUTP OUTN I=29+ V(INP,INN)*(-3.9+240m*V(INP,INN)-5.3m*V(INP,INN)*V(INP,INN)) 
+.ends
+X$G22 VDD GND 0 VLO $$arbsourceG22 pinnames: n1 n2 OUTP OUTN 
+.subckt $$arbsourceG22 n1 n2 OUTP OUTN 
+B$OUT OUTP OUTN I=table[0,1.28, 4.5,1.28, 6.00,1.36, 10.0,1.48, 14.0,1.48, 18.0,1.55](v(n1)-v(n2)) 
+.ends
+X$G64 VDD GND 0 64 $$arbsourceG64 pinnames: inp inn OUTP OUTN 
+.subckt $$arbsourceG64 inp inn OUTP OUTN 
+B$OUT OUTP OUTN I=24+ V(INP,INN)*(-4.12+298m*V(INP,INN)-7.3m*V(INP,INN)*V(INP,INN)) 
+.ends
+X$H60 58 0 56 0 H60$TP_CCVS params: gain=1 
+.subckt H60$TP_CCVS 1 2 3 4
+H1 1 2 V1 {gain} 
+V1 3 4
+.ends
+RC60 RC60_P 56 1m
+X$H67 0 69 60 59 H67$TP_CCVS params: gain=1 
+.subckt H67$TP_CCVS 1 2 3 4
+H1 1 2 V1 {gain} 
+V1 3 4
+.ends
+RINP1 0 EHYS_OUTP 1K
+
+.SUBCKT COMP_HYS INP INM HYS OUT
+EIN INP1 INM1 INP INM 1
+EHYS INP1 INP2 VALUE { IF( V(1)>0.5,-V(HYS)/2,V(HYS)/2) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1),1,0) }
+R1 OUT 1 1
+C1 1 0 10n
+RINP1 INP1 0 1K
+.ends COMP_HYS
+
+.SUBCKT MCP1416_S31 1 2 3 4 
+S_S31         3 4 1 2 _S31
+RS_S31         1 2 1G
+.MODEL         _S31 VSWITCH Roff=100MEG Ron=1k Voff=0.2V Von=0.1V
+.ends MCP1416_S31
+
+.ends MCP1416

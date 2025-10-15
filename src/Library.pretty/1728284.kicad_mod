@@ -1,0 +1,309 @@
+(footprint "1728284"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1728284")
+	(tags "Connector")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "76600869-5755-45a5-9fba-b6a6aec54b1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "1728284"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f9d4b57-d395-4a34-b7f8-90bfdf0e5b48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.phoenixcontact.com/de/produkte/1728284/pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef967d46-3ef9-4514-80b0-8ce969b9186f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PCB terminal block, nominal current: 10 A, rated voltage (III/2): 200 V, nominal cross section: 1 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SMKDS 1, pitch: 3.81 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 35 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a45301-c549-43b1-a17a-d87957ce5b35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "PCB terminal block, nominal current: 10 A, rated voltage (III/2): 200 V, nominal cross section: 1 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: SMKDS 1, pitch: 3.81 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 35 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "823b9715-52fb-4253-9044-8a04f8c3f55c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "11.17"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32e3d18d-68c1-4fd8-9ab0-b3165bbfb40e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Phoenix Contact"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ccd94d1-c401-421b-89c9-35809f986622")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "1728284"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4231aebb-c20b-44ac-9bfc-4ea00e262139")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "651-1728284"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b83e7ec8-f6d3-482b-8d78-9e3103d60228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1728284?qs=%2FbRkJSLTVS8E8WZJTyDrWg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "315c8839-1c57-45a3-8bc3-34ab5d145afd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baa2e97e-2c39-4582-935f-85aafcf7b0ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b506942-8ffa-41a7-b175-0310c82bb532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -1.905 -5.855)
+		(end 5.705 -5.855)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e35c1ffc-b27e-49ef-9eb9-68ac0573363d")
+	)
+	(fp_line
+		(start -1.905 7.255)
+		(end -1.905 -5.855)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff88c40b-9bbf-46ef-b58f-acd311527c40")
+	)
+	(fp_line
+		(start 5.705 -5.855)
+		(end 5.705 7.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cea0e0e-244e-4db2-92ef-358bf7599dcb")
+	)
+	(fp_line
+		(start 5.705 7.255)
+		(end -1.905 7.255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cd5853f-e529-4c74-88bb-c9590a5ef4b4")
+	)
+	(fp_circle
+		(center -2.85 0)
+		(end -2.9 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "23fcc5fa-0875-4da0-bfd1-106aa250ddbc")
+	)
+	(fp_line
+		(start -3.75 -6.855)
+		(end 6.705 -6.855)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1d7a1566-cee0-484d-a62a-dec6103f5022")
+	)
+	(fp_line
+		(start -3.75 8.255)
+		(end -3.75 -6.855)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bf24740d-8c48-4f26-9ea6-52373283418d")
+	)
+	(fp_line
+		(start -1.905 -5.855)
+		(end 5.705 -5.855)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1f75077b-21ea-452d-b86a-ffeb8ba74eac")
+	)
+	(fp_line
+		(start -1.905 7.255)
+		(end -1.905 -5.855)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2460a057-c382-434c-b4c1-26b924685dde")
+	)
+	(fp_line
+		(start 5.705 -5.855)
+		(end 5.705 7.255)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "142fdd59-3c0f-4d5e-a67f-5f04140d639a")
+	)
+	(fp_line
+		(start 5.705 7.255)
+		(end -1.905 7.255)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "452827c3-9c1d-4ce6-ad8c-b3f626320292")
+	)
+	(fp_line
+		(start 6.705 -6.855)
+		(end 6.705 8.255)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1ca9b8c0-d4b0-4f16-ad4f-7295cf0ac932")
+	)
+	(fp_line
+		(start 6.705 8.255)
+		(end -3.75 8.255)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ec4a0ace-83ac-47e0-b4c0-18c7263aacd0")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "65985521-d7ce-4ec0-8907-a33dc7dc4a3e")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0 90)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "9ba505d4-67ea-4ebb-a65c-64d71c612b67")
+	)
+	(embedded_fonts no)
+)

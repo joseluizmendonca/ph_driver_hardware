@@ -1,0 +1,107 @@
+(footprint "TEST-TH_BD2.54-P1.39"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "296fcf2e-511d-4050-bae4-c0addec7ee83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Probe"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "192b4259-28ba-4f41-a618-b397d8df7d3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d6c8fdd-8641-4232-a835-f31cf1e7dcc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point (alternative probe-style design)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93c4d2bb-bcd7-4db4-889d-499eed37ea81")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cacfd821-273b-49a0-b996-49be9528bd71")
+	)
+	(fp_circle
+		(center 1.27 -1.27)
+		(end 1.3 -1.27)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a14495eb-3c10-4586-9fb3-0d423a6f4ab6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bc462a30-3b22-403f-b0ca-c9ab7a7f1f52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.9 1.9)
+		(drill 1.38999)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "726b1ff1-005f-4bf2-be74-0e032788ab55")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TEST-TH_D2.54-H4.6-P1.39.wrl"
+		(offset
+			(xyz -0.01 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

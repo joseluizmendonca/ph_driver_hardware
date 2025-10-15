@@ -1,0 +1,209 @@
+(footprint "TO-220-3_L10.0-W4.5-P2.54-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.46 2.75 180)
+		(layer "F.SilkS")
+		(uuid "b7c2c3e8-b480-45c2-bfb7-4e089b73558f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRFZ44NPBF"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c081044-f3f4-44e7-bb7a-8449a1c440a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRFZ44NPBF_IRFZ44NPBF_C2586.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "178225cb-4ee5-44f5-9449-e9829f46e3a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18cf7c0f-1a0f-4390-a5fd-bb539d2b8a5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C2586"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5de050c5-acc3-4da6-9dbf-fecb2b82bd2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.3 -3.09)
+		(end 5.3 -3.09)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27d66e53-6cbb-4446-bfb6-a0ae9a7d6696")
+	)
+	(fp_line
+		(start -5.3 -3.08)
+		(end -5.3 -3.09)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29352dd6-99ff-4247-a943-ac5b2ab8c33a")
+	)
+	(fp_line
+		(start -5.3 1.71)
+		(end -5.3 -3.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89cb7f55-c8d0-4fff-a12d-37aa51ab22a5")
+	)
+	(fp_line
+		(start 5.3 -3.09)
+		(end 5.3 1.71)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99eaa50b-7a5f-45e1-a5f0-b2a00862d457")
+	)
+	(fp_line
+		(start 5.3 -2.49)
+		(end -5.3 -2.49)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5043d023-2aec-4a27-80bd-a5b9210e64c9")
+	)
+	(fp_line
+		(start 5.3 1.71)
+		(end -5.3 1.71)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de2dbc01-f1d5-4096-83e0-a5218ce51d9a")
+	)
+	(fp_arc
+		(start -2.76 2.33)
+		(mid -2.775239 2.710191)
+		(end -2.769526 2.329738)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9f0a7f7-6b3a-4e69-a564-5a43c13dcfae")
+	)
+	(fp_circle
+		(center -2.92 2.15)
+		(end -2.62 2.15)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f8d9f4c9-4bb5-409b-821d-96871bc5196b")
+	)
+	(fp_circle
+		(center -5 -3)
+		(end -4.97 -3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aaf11129-6fa7-4813-aac8-eac15cb131a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "4b98b932-0427-4dc6-aa75-5e32ddedd061")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.8 2.6)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "2487a07d-d0de-4238-987f-657175c67ed6")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.8 2.6)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "c30d4e0e-d306-4178-b568-580ad241ec53")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 2.6)
+		(drill 1.199998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81e33c23-1cf7-4fd3-9b4a-6898d7efc316")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/notAfonso/KiCad/EasyEDA.3dshapes/TO-220-3_L10.0-W4.5-P2.54-L.step"
+		(offset
+			(xyz -0 0.5 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

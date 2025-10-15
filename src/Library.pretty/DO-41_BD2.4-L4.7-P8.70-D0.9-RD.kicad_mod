@@ -1,0 +1,189 @@
+(footprint "DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.25 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "1ddbbe6a-3139-457f-86ef-7d24c2fa7161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4007RLG"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fbc283b-c970-4563-9ff9-3f8e8c2b306e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_1N4007RLG_1N4007RLG_C53568.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae39ff8-58f7-4e6e-96d9-e32d543bd242")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "954328dc-fbbc-4be1-80e2-1668d54c8202")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C53568"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c56eff0-30d7-4259-886f-63a551169f90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 -1.4)
+		(end -2.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d11d2ed8-9164-4e1e-8b55-e010534983ff")
+	)
+	(fp_line
+		(start -2.6 -1.4)
+		(end 2.6 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccea3950-7bd5-4e32-abc7-7102ac8a5742")
+	)
+	(fp_line
+		(start -2.6 1.4)
+		(end 2.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1658e9a8-e55e-491e-b792-ad186628aa37")
+	)
+	(fp_line
+		(start -1.64 -1.4)
+		(end -1.64 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "293aa583-7bba-49e8-a3f9-9736b19cca79")
+	)
+	(fp_line
+		(start 2.6 -1.4)
+		(end 2.6 1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86689382-c6a1-4051-a487-8a90208b2086")
+	)
+	(fp_circle
+		(center -4.75 1.2)
+		(end -4.72 1.2)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "665bfdd0-5faf-4df7-a759-9e6662ae2894")
+	)
+	(fp_circle
+		(center -4.35 0)
+		(end -4.15 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8c7c1508-81cf-4ed5-bf87-83d55c8a8f03")
+	)
+	(fp_circle
+		(center 4.35 0)
+		(end 4.55 0)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9ea5e755-6ea5-4507-afbb-b95d98b411e6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "889a6afc-458e-4aa0-9f14-c6546e402e84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.35 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb7b7f1c-a2f6-4610-b9b7-6c00e3fb994a")
+	)
+	(pad "2" thru_hole circle
+		(at 4.35 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ad95dbc-21c5-4c38-adcc-2216c9fcbd42")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/DO-41_D2.4-L4.7-P8.70.wrl"
+		(offset
+			(xyz 0 -0 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

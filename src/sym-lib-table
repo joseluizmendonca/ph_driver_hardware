@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "peak_and_hold")(type "KiCad")(uri "${KIPRJMOD}/libs/peak_and_hold.kicad_sym")(options "")(descr ""))
+  (lib (name "ba_thesis")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/ba_thesis.kicad_sym")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.kicad_sym")(options "")(descr ""))
+)
