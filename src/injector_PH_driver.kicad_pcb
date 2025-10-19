@@ -2269,7 +2269,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "e517699c-16c7-4e1b-804b-a10356a9fe77")
 		)
 		(pad "4" thru_hole circle
 			(at 2 -2.5 180)
@@ -2280,7 +2280,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "9fd9895e-2558-4a7d-b131-0a6304e917d7")
 		)
 		(pad "4" thru_hole circle
 			(at 2 -1.5 180)
@@ -2291,7 +2291,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6197880f-3b59-4ee4-a645-e970a35acd56")
 		)
 		(pad "4" thru_hole circle
 			(at 2 -0.5 180)
@@ -2302,7 +2302,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "0db8b844-2caa-4624-b854-085a20434e7c")
 		)
 		(pad "4" thru_hole circle
 			(at 2 0.5 180)
@@ -2313,7 +2313,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "8cda41c9-e9ea-4842-8784-cad99400919a")
 		)
 		(pad "4" thru_hole circle
 			(at 2 1.5 180)
@@ -2324,7 +2324,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "1fed0358-abc6-49b2-8a0c-74db2f3ba120")
 		)
 		(pad "4" thru_hole circle
 			(at 2 2.5 180)
@@ -2335,7 +2335,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "c4d6b2b1-d90b-4f33-8f7a-c26689b7cfe7")
 		)
 		(pad "4" thru_hole circle
 			(at 2 3.5 180)
@@ -2346,7 +2346,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "0557e0dd-59ac-49f7-9d82-7904ba4e27f9")
 		)
 		(pad "4" thru_hole circle
 			(at 2 4.5 180)
@@ -2357,7 +2357,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "de9dcbf2-09c3-4b96-9be6-ff1d8249d393")
 		)
 		(pad "4" thru_hole circle
 			(at 3 -4.5 180)
@@ -2368,7 +2368,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6725116e-bcca-4506-9d92-2f317b3693ed")
 		)
 		(pad "4" thru_hole circle
 			(at 3 -3.5 180)
@@ -2379,7 +2379,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "0a775fad-c3d6-44c8-8946-c4d64c8b8106")
 		)
 		(pad "4" thru_hole circle
 			(at 3 -2.5 180)
@@ -2390,7 +2390,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "7f6c1bd4-ad6d-4398-ab19-7da1be36ee7b")
 		)
 		(pad "4" thru_hole circle
 			(at 3 -1.5 180)
@@ -2401,7 +2401,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "447decd5-977e-43e8-bd1a-5511f66ed04d")
 		)
 		(pad "4" thru_hole circle
 			(at 3 -0.5 180)
@@ -2412,7 +2412,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "c0d444f1-10a0-4066-8596-af78c80dce65")
 		)
 		(pad "4" thru_hole circle
 			(at 3 0.5 180)
@@ -2423,7 +2423,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "9b1bcf0d-20b0-48bf-8ad3-2fe71a665ba6")
 		)
 		(pad "4" thru_hole circle
 			(at 3 1.5 180)
@@ -2434,7 +2434,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "9618a337-299f-47fa-b328-c13f98c8bc37")
 		)
 		(pad "4" thru_hole circle
 			(at 3 2.5 180)
@@ -2445,7 +2445,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "049e61fb-9bcc-41ea-9d62-947308790b32")
 		)
 		(pad "4" thru_hole circle
 			(at 3 3.5 180)
@@ -2456,7 +2456,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "78d1da6b-e1e4-483b-bd18-b1636757fcaf")
 		)
 		(pad "4" thru_hole circle
 			(at 3 4.5 180)
@@ -2467,7 +2467,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "20abf946-7d13-4356-b08d-6e7ccc859095")
 		)
 		(pad "4" thru_hole circle
 			(at 4 -4.5 180)
@@ -2478,7 +2478,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "29db5c79-e12c-4271-bf9d-5a4ca679b10d")
 		)
 		(pad "4" thru_hole circle
 			(at 4 -3.5 180)
@@ -2489,7 +2489,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "3076e558-a8f0-4254-9fb9-06551b20f21c")
 		)
 		(pad "4" thru_hole circle
 			(at 4 -2.5 180)
@@ -2500,7 +2500,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "b1af0ba2-a9be-4083-89ee-6e56203e31b9")
 		)
 		(pad "4" thru_hole circle
 			(at 4 -1.5 180)
@@ -2511,7 +2511,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "174e64e0-2abf-4f75-a4c2-d651c8b27463")
 		)
 		(pad "4" thru_hole circle
 			(at 4 -0.5 180)
@@ -2522,7 +2522,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "f9818af0-3316-4cec-a29a-07d0a5149814")
 		)
 		(pad "4" thru_hole circle
 			(at 4 0.5 180)
@@ -2533,7 +2533,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "48117eae-328e-440a-8274-45f2ef52dea5")
 		)
 		(pad "4" thru_hole circle
 			(at 4 1.5 180)
@@ -2544,7 +2544,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "c9f754ca-f317-4482-b4c7-a711c15cb7e4")
 		)
 		(pad "4" thru_hole circle
 			(at 4 2.5 180)
@@ -2555,7 +2555,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "06cb2aab-bb6b-4e5b-9140-6b7685b31ef5")
 		)
 		(pad "4" thru_hole circle
 			(at 4 3.5 180)
@@ -2566,7 +2566,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "9c72c2d7-4747-4c35-93fc-6a884f900dd5")
 		)
 		(pad "4" thru_hole circle
 			(at 4 4.5 180)
@@ -2577,7 +2577,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "fe8491ea-eed1-46b4-9b50-5cbf327a7088")
 		)
 		(pad "4" thru_hole circle
 			(at 5 -4.5 180)
@@ -2588,7 +2588,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6ef7c6ac-61e4-4a69-88f4-04e2b58e3760")
 		)
 		(pad "4" thru_hole circle
 			(at 5 -3.5 180)
@@ -2599,7 +2599,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "5b8b46d5-ca21-4cfe-beec-92aee65500a4")
 		)
 		(pad "4" thru_hole circle
 			(at 5 -2.5 180)
@@ -2610,7 +2610,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6d968fc6-f24f-4549-b339-44bfde4f7945")
 		)
 		(pad "4" thru_hole circle
 			(at 5 -1.5 180)
@@ -2621,7 +2621,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "541a9469-5c0d-4596-8933-ecc08a12a5cf")
 		)
 		(pad "4" thru_hole circle
 			(at 5 -0.5 180)
@@ -2632,7 +2632,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "89735a48-2800-42be-878c-c3c22bb6c8eb")
 		)
 		(pad "4" thru_hole circle
 			(at 5 0.5 180)
@@ -2643,7 +2643,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "536caec3-c5b0-40b2-a698-094a4dec75a9")
 		)
 		(pad "4" thru_hole circle
 			(at 5 1.5 180)
@@ -2654,7 +2654,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "2af88750-7253-4bb6-a0c7-9c11ad774ac1")
 		)
 		(pad "4" thru_hole circle
 			(at 5 2.5 180)
@@ -2665,7 +2665,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "afc69e6f-0db3-45c4-a201-348621a6d032")
 		)
 		(pad "4" thru_hole circle
 			(at 5 3.5 180)
@@ -2676,7 +2676,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "fc5aa7f3-e0c1-4faa-9e9f-1175aaa4b8e5")
 		)
 		(pad "4" thru_hole circle
 			(at 5 4.5 180)
@@ -2687,7 +2687,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "8c6e9cc8-fad1-474a-99d1-b8b765f08120")
 		)
 		(pad "4" smd rect
 			(at 5.09 0 180)
@@ -2696,7 +2696,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "23257904-2e0b-4ec3-b040-97b1985dc50c")
 		)
 		(pad "4" thru_hole circle
 			(at 6 -4.5 180)
@@ -2707,7 +2707,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6e301339-87a8-416e-a4ec-17bc6b031468")
 		)
 		(pad "4" thru_hole circle
 			(at 6 -3.5 180)
@@ -2718,7 +2718,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "a9db0203-f8ad-45fb-9d31-4ad80ab16086")
 		)
 		(pad "4" thru_hole circle
 			(at 6 -2.5 180)
@@ -2729,7 +2729,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "191f142b-d2aa-4838-8934-1907f9769b86")
 		)
 		(pad "4" thru_hole circle
 			(at 6 -1.5 180)
@@ -2740,7 +2740,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "92046f4f-861b-4a49-bb19-7517164d6733")
 		)
 		(pad "4" thru_hole circle
 			(at 6 -0.5 180)
@@ -2751,7 +2751,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "64ca94ee-060b-47c4-8657-379c4623ca12")
 		)
 		(pad "4" thru_hole circle
 			(at 6 0.5 180)
@@ -2762,7 +2762,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "fc8e2560-ac41-401d-b8e9-63b62e90aebf")
 		)
 		(pad "4" thru_hole circle
 			(at 6 1.5 180)
@@ -2773,7 +2773,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "53252519-52ca-4fb4-a736-4783e1de8b15")
 		)
 		(pad "4" thru_hole circle
 			(at 6 2.5 180)
@@ -2784,7 +2784,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "53dc7150-6d05-4129-b8fa-e008642a301d")
 		)
 		(pad "4" thru_hole circle
 			(at 6 3.5 180)
@@ -2795,7 +2795,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6afb090e-5a96-4b28-8199-30dc7f88a3a5")
 		)
 		(pad "4" thru_hole circle
 			(at 6 4.5 180)
@@ -2806,7 +2806,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "512b63e8-7321-4999-96b9-38636b20ad29")
 		)
 		(pad "4" thru_hole circle
 			(at 7 -4.5 180)
@@ -2817,7 +2817,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "71814a06-4b12-4907-bc59-758111ad0a5a")
 		)
 		(pad "4" thru_hole circle
 			(at 7 -3.5 180)
@@ -2828,7 +2828,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "1f20cdd6-8997-47ab-af6a-f557d7c81446")
 		)
 		(pad "4" thru_hole circle
 			(at 7 -2.5 180)
@@ -2839,7 +2839,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "47ad5a6d-3d55-4e43-aab0-bbd7f9fbe937")
 		)
 		(pad "4" thru_hole circle
 			(at 7 -1.5 180)
@@ -2850,7 +2850,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "aecf6764-3c49-4a86-8469-912f45ec1039")
 		)
 		(pad "4" thru_hole circle
 			(at 7 -0.5 180)
@@ -2861,7 +2861,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "b9d636a5-6c85-4fac-8137-24b4ddad37e7")
 		)
 		(pad "4" thru_hole circle
 			(at 7 0.5 180)
@@ -2872,7 +2872,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "9ae98c2e-f07d-45cf-9642-064e4044c706")
 		)
 		(pad "4" thru_hole circle
 			(at 7 1.5 180)
@@ -2883,7 +2883,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "8e662e9b-fc0f-4463-abf0-15209c43d19a")
 		)
 		(pad "4" thru_hole circle
 			(at 7 2.5 180)
@@ -2894,7 +2894,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "d77d994b-37f4-4f7d-88e6-b78e512f00b5")
 		)
 		(pad "4" thru_hole circle
 			(at 7 3.5 180)
@@ -2905,7 +2905,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "1b755ce8-b62d-4ec1-9f11-5582765be8c1")
 		)
 		(pad "4" thru_hole circle
 			(at 7 4.5 180)
@@ -2916,7 +2916,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "ab34b822-0f1e-4ccf-b336-cf3f67616413")
 		)
 		(pad "4" thru_hole circle
 			(at 8 -4.5 180)
@@ -2927,7 +2927,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "3a582bff-174f-4640-ba7d-079e7857e8a8")
 		)
 		(pad "4" thru_hole circle
 			(at 8 -3.5 180)
@@ -2938,7 +2938,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "43b7c626-9a95-419d-81a4-373a6e922292")
 		)
 		(pad "4" thru_hole circle
 			(at 8 -2.5 180)
@@ -2949,7 +2949,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "6b9c8601-10e6-4a10-a4dc-8f0961713f79")
 		)
 		(pad "4" thru_hole circle
 			(at 8 -1.5 180)
@@ -2960,7 +2960,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "60bcdd55-b3bf-45ef-99fe-12b5e3629eea")
 		)
 		(pad "4" thru_hole circle
 			(at 8 -0.5 180)
@@ -2971,7 +2971,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "ba28ea45-8c79-45c7-a3d0-671cd04f6a92")
 		)
 		(pad "4" thru_hole circle
 			(at 8 0.5 180)
@@ -2982,7 +2982,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "e59cc9f2-5370-4b2a-a65e-7161d3acc9e4")
 		)
 		(pad "4" thru_hole circle
 			(at 8 1.5 180)
@@ -2993,7 +2993,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "539ecd46-f2ba-4250-b7bc-8e3b54f3cf48")
 		)
 		(pad "4" thru_hole circle
 			(at 8 2.5 180)
@@ -3004,7 +3004,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "44b6a3e2-32ae-4323-992c-cde6394f8c9c")
 		)
 		(pad "4" thru_hole circle
 			(at 8 3.5 180)
@@ -3015,7 +3015,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "a9f0c842-1c4e-40e1-a8cf-08bf04bf29e1")
 		)
 		(pad "4" thru_hole circle
 			(at 8 4.5 180)
@@ -3026,7 +3026,7 @@
 			(net 3 "/Inj1-")
 			(pinfunction "D")
 			(pintype "unspecified")
-			(uuid "ea01a7b9-e201-4df1-8290-44e005a03306")
+			(uuid "a617c458-0cb2-4337-9831-5d0805feee74")
 		)
 		(embedded_fonts no)
 		(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/TO-263-2_L10.2-W8.7-H4.5_LS15.2-P2.54.wrl"
