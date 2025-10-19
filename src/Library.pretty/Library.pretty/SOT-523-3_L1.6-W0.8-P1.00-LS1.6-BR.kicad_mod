@@ -1,0 +1,287 @@
+(footprint "SOT-523-3_L1.6-W0.8-P1.00-LS1.6-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.2 180)
+		(layer "F.SilkS")
+		(uuid "f9e5761b-7bf9-4ca2-b3dd-fc70bbe2f30e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC847BT-7-F"
+		(at 0 4.5 180)
+		(layer "F.Fab")
+		(uuid "775eb5ac-97a5-4346-b96c-d0ffad0c87f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_DIODES_BC847BT-7-F_BC847BT-7-F_C156332.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b73dc2b-2c89-4162-baba-f3ac874b2a1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20156e51-effc-49d9-b8ac-721ec84cff44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C156332"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e3732f2-9ad8-4e47-bb08-6eefbefe92bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" "sim_lib\\BC547B.LIB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd1c02e2-bce6-496a-8101-218e4e2afc32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" "Qbc547b"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dfda2d9-142f-4467-a32d-5a98f0effeaa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "NPN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b7e539e-7edf-4f35-8d92-934c7fac1674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Type" "GUMMELPOON"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0ec72f9-e8ea-44d4-8ac0-221c8c61af94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=C 2=B 3=E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c22b30d0-9ef8-4ed7-b8b5-d6de3d8f9b9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.45 -0.9)
+		(end 0.45 -0.9)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d39a37bb-ffc4-4146-9c31-6c9df8ab5395")
+	)
+	(fp_line
+		(start -0.45 -0.4)
+		(end -0.45 -0.9)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc8f5eac-2851-4352-a4a8-3149889022bb")
+	)
+	(fp_line
+		(start -0.45 0.9)
+		(end -0.45 0.4)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a21f8f65-407f-448f-aabe-bfb53c2623ea")
+	)
+	(fp_line
+		(start -0.45 0.9)
+		(end 0.45 0.9)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78beca25-0c9d-43a4-9928-78f7c7e0035d")
+	)
+	(fp_line
+		(start 0.45 -0.9)
+		(end 0.45 -0.9)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7dee1c0b-d776-4264-9b83-e8e4ac7245f3")
+	)
+	(fp_line
+		(start 0.45 0.1)
+		(end 0.45 -0.1)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e257d87-f292-4541-a213-130e19aa479b")
+	)
+	(fp_line
+		(start 0.45 0.9)
+		(end 0.45 0.9)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d6d0248-89fd-4ff1-bbb8-fccf57e54437")
+	)
+	(fp_circle
+		(center 0.76 1.01)
+		(end 0.83 1.01)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ba74f39a-996f-4cc6-82de-cf837b7fd2e3")
+	)
+	(fp_circle
+		(center 0.87 0.53)
+		(end 0.96 0.53)
+		(stroke
+			(width 0.19)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8b7bd887-36eb-4664-9331-45091b5f03dd")
+	)
+	(fp_circle
+		(center 0.8 0.8)
+		(end 0.81 0.8)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9875d942-6a45-40d3-902b-12ddabc25184")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "a0fd9c38-ea11-45ae-9523-4caaecc7010c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.5 90)
+		(size 0.4 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "0c07a040-e2ae-4857-b6d1-47030394d9cc")
+	)
+	(pad "2" smd rect
+		(at 0.65 -0.5 90)
+		(size 0.4 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "69b715fe-80ef-4b59-9f67-325ad4f76706")
+	)
+	(pad "3" smd rect
+		(at -0.65 0 90)
+		(size 0.4 0.51)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "675840d4-1ea7-4cb0-894d-99efd9420ee4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/SOT-523-3P_L1.6-W0.8-H0.9-LS1.6-P0.50.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

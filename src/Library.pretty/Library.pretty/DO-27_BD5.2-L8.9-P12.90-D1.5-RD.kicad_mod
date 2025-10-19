@@ -1,0 +1,270 @@
+(footprint "DO-27_BD5.2-L8.9-P12.90-D1.5-RD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "ea432a44-d188-4044-8b0d-1025a4bf76e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N5338BRLG"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "0096734e-4994-4d8d-8429-1025dde90c42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Zener-Diodes_ON_1N5338B_1N5338B_C5307.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0c57920-496a-4daf-8968-9f5dd601fb45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ad3923-e35c-4234-9382-755e866b0e47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C5307"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e86f25-6b21-4877-a34d-f9c977ac8f97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Library" "sim_lib\\1n5913.lib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5edbc8d6-4df8-474a-8409-52ce50496dff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Name" "d1n5913brl"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91c4ec44-3d64-4f6f-8aa8-5db607d7cc08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" "SUBCKT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54d4a7bd-6af7-441c-913e-dd0d25361b9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=2 2=1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8494a97f-79f1-4fc8-a102-97ee4352784b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.3 -2.8)
+		(end -4.3 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b6ded7a-4d58-4ed3-ad8d-225952379478")
+	)
+	(fp_line
+		(start -4.3 -2.8)
+		(end 4.3 -2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d0a8dad-2724-4858-bd6f-4d64ffdde85f")
+	)
+	(fp_line
+		(start -4.3 2.8)
+		(end 4.3 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9803c588-926a-4b60-a40a-b7bf65b1bdbe")
+	)
+	(fp_line
+		(start -3.44 2.66)
+		(end -3.44 -2.67)
+		(stroke
+			(width 0.23)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e15561e-2fca-4e43-9509-5bcfdaa5a5b6")
+	)
+	(fp_line
+		(start -3.31 2.66)
+		(end -3.31 -2.67)
+		(stroke
+			(width 0.23)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d201d19-2157-435f-ba41-569febdbc7c4")
+	)
+	(fp_line
+		(start -3.18 2.66)
+		(end -3.18 -2.67)
+		(stroke
+			(width 0.23)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3dbe5f38-192f-4309-8f65-f897ad2a104c")
+	)
+	(fp_line
+		(start -3.06 2.66)
+		(end -3.06 -2.67)
+		(stroke
+			(width 0.23)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "914a0cac-31a7-4539-9e59-359d1b503e78")
+	)
+	(fp_line
+		(start 4.3 -2.8)
+		(end 4.3 2.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19eb2ec5-ac03-49fb-bffd-821e3086314a")
+	)
+	(fp_circle
+		(center -7.65 2.6)
+		(end -7.62 2.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cba6e4ee-521b-4d9a-b43e-f9429a09f8b1")
+	)
+	(fp_circle
+		(center -7 0)
+		(end -6.67 0)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1a7313ae-0ca3-493d-8b34-2b5a4e869ae7")
+	)
+	(fp_circle
+		(center 7 0)
+		(end 7.33 0)
+		(stroke
+			(width 0.65)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ca314ba7-7407-4805-b231-0fc160677c24")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ca781317-4c63-429f-bc82-e76d5f382b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7 0 180)
+		(size 2.4 2.4)
+		(drill 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46849106-94b9-464f-8618-f9ec2f689a21")
+	)
+	(pad "2" thru_hole circle
+		(at 7 0 180)
+		(size 2.4 2.4)
+		(drill 1.599997)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de49f356-2da5-4fb6-8ec5-dc0348087e8b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/DO-27_D5.2-L8.9-P14.0.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

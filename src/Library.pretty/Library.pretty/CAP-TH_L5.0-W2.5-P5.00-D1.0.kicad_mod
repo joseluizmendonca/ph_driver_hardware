@@ -1,0 +1,198 @@
+(footprint "CAP-TH_L5.0-W2.5-P5.00-D1.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.3 0 180)
+		(layer "F.SilkS")
+		(uuid "ed2c7e5d-3180-40f8-8f1f-349dc10e4868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CC1H104MC1FD3F6C10MF"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(uuid "7c2d8c19-e5c2-412f-ab59-1c4df20501f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Ceramic-Disc-Capacitors_Dersonic-CC1H104MC1FD3F6C10MF_C254085.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8c18c9f-1818-4dbd-9b69-05fe8fc6e34c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9605cc7-9e7b-4d8e-8f9d-a710e6f6cc87")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C254085"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc0debaf-f5be-4432-b99d-54ec6e83651d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -1.25)
+		(end -2.5 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3284448-abcb-46b6-94ed-4b5ddc9d33f6")
+	)
+	(fp_line
+		(start -2.5 -1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c45b4e86-2029-4944-b5a4-ab164b6b6602")
+	)
+	(fp_line
+		(start -2.5 1.27)
+		(end -2.5 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d622d87-b8ed-4cd9-90eb-5973bcfff7f0")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e522934-80bd-4280-85a6-12e13e9de325")
+	)
+	(fp_line
+		(start 2.5 1.27)
+		(end -2.5 1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3666c28c-7c09-426a-b1fe-c1aa643a50f6")
+	)
+	(fp_line
+		(start 2.5 1.27)
+		(end 2.5 1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b870a25d-3720-4c00-943d-8bda54772b42")
+	)
+	(fp_circle
+		(center -2.85 1.25)
+		(end -2.82 1.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "515cccd0-48f7-4dcd-8793-dc7159b5c5a5")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.32 0)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e4930754-3700-4b36-b5d1-2a7066bf95a1")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 2.68 0)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57542391-36c7-4efa-9dbf-ec9d20aa38da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "e3a4c3df-12e2-46a0-9e65-de71d966f80c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e9b5452-5e9a-471e-aeb0-fa99d40336ae")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1dbf2757-5e66-4a89-b3b3-b436150b33f1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CAP-TH_BD5.0-W2.5-P5.08.wrl"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
