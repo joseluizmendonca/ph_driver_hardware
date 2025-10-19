@@ -5,34 +5,28 @@
 	(uuid "e38b2cd3-6788-4879-99ef-641e9e6a4256")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "EasyEDA:CRCW060310K0FKEC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "CRCW060310K0FKEC"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,8 +52,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
+			(property "LCSC Part" "C843841"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,33 +61,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
+			(symbol "CRCW060310K0FKEC_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -108,10 +91,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1968,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_THT_Wurth_NEW:L_Wurth_WE-TI-1016"
+		(property "Footprint" "Inductor_THT_Wurth:L_Wurth_WE-TI-1016"
 			(at 154.94 67.31 0)
 			(effects
 				(font
@@ -2150,7 +2133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65051d8c-dc66-4587-8013-cc4249baeba1")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 172.72 67.3099 90)
 			(effects
 				(font
@@ -2213,11 +2196,11 @@
 		(instances
 			(project "injector_PH_driver"
 				(path "/1233132f-6dc2-4199-ab8a-fcffdcb260a3/8918a2e9-3f6a-4d31-a522-7eb8130788f4"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/1233132f-6dc2-4199-ab8a-fcffdcb260a3/9693357c-2e3d-4fed-8d76-1154c536c0d4"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2233,7 +2216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6923bf46-d268-4045-9d1c-285d352c573d")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 172.72 81.2799 90)
 			(effects
 				(font
@@ -2296,11 +2279,11 @@
 		(instances
 			(project "injector_PH_driver"
 				(path "/1233132f-6dc2-4199-ab8a-fcffdcb260a3/8918a2e9-3f6a-4d31-a522-7eb8130788f4"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/1233132f-6dc2-4199-ab8a-fcffdcb260a3/9693357c-2e3d-4fed-8d76-1154c536c0d4"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2333,7 +2316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 125.73 91.44 0)
 			(effects
 				(font
@@ -2342,7 +2325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_1N4007RLG_1N4007RLG_C53568.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_MRA4007T3G_MRA4007T3G_C47921.html"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -2360,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53568"
+		(property "LCSC Part" "C47921"
 			(at 120.65 91.44 0)
 			(effects
 				(font
@@ -2415,7 +2398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -2424,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_1N4007RLG_1N4007RLG_C53568.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_MRA4007T3G_MRA4007T3G_C47921.html"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -2442,7 +2425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53568"
+		(property "LCSC Part" "C47921"
 			(at 107.95 91.44 0)
 			(effects
 				(font
@@ -2497,7 +2480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -2506,7 +2489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_1N4007RLG_1N4007RLG_C53568.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_MRA4007T3G_MRA4007T3G_C47921.html"
 			(at 137.16 91.44 0)
 			(effects
 				(font
@@ -2524,7 +2507,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53568"
+		(property "LCSC Part" "C47921"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -2579,7 +2562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
 			(at 147.32 91.44 0)
 			(effects
 				(font
@@ -2588,7 +2571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_1N4007RLG_1N4007RLG_C53568.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_ON_MRA4007T3G_MRA4007T3G_C47921.html"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -2606,7 +2589,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C53568"
+		(property "LCSC Part" "C47921"
 			(at 152.4 91.44 0)
 			(effects
 				(font
@@ -2635,7 +2618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 152.4 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2661,7 +2644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:RES-TH_BD4.2-L12.0-P16.00-D0.8"
+		(property "Footprint" "EasyEDA:R0603"
 			(at 154.178 72.39 90)
 			(effects
 				(font
@@ -2728,6 +2711,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C843841"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb209eb0-0827-4417-96e0-7eaee56409d5")
 		)
@@ -2748,7 +2740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 152.4 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2774,7 +2766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:RES-TH_BD4.2-L12.0-P16.00-D0.8"
+		(property "Footprint" "EasyEDA:R0603"
 			(at 154.178 85.09 90)
 			(effects
 				(font
@@ -2838,6 +2830,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C843841"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

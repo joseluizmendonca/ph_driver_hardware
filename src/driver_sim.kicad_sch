@@ -474,130 +474,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:1N5338BRLG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -718,7 +594,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:BC547B"
+		(symbol "EasyEDA:BC847BT-7-F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -730,7 +606,7 @@
 					)
 				)
 			)
-			(property "Value" "BC547B"
+			(property "Value" "BC847BT-7-F"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -738,7 +614,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:TO-92-3_L4.9-W3.7-P1.27-L"
+			(property "Footprint" "EasyEDA:SOT-523-3_L1.6-W0.8-P1.00-LS1.6-BR"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -747,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_LGE-BC547B_C713613.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_DIODES_BC847BT-7-F_BC847BT-7-F_C156332.html"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -765,7 +641,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C713613"
+			(property "LCSC Part" "C156332"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -774,7 +650,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC547B_0_1"
+			(symbol "BC847BT-7-F_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.29) (xy -2.54 -2.29)
@@ -823,28 +699,10 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -859,7 +717,25 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
 					(at 0 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -869,7 +745,114 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:CRCW060310K0FKEC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CRCW060310K0FKEC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C843841"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CRCW060310K0FKEC_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2670,7 +2653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=3.3 td=5m tr=2n tf=2n tw=10m per=20m np=4"
+		(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
 			(at 111.76 124.3301 0)
 			(effects
 				(font
@@ -2828,7 +2811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:BC547B")
+		(lib_id "EasyEDA:BC847BT-7-F")
 		(at 138.43 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2846,7 +2829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC547B"
+		(property "Value" "BC847BT-7-F"
 			(at 139.7 109.2199 0)
 			(effects
 				(font
@@ -2855,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:TO-92-3_L4.9-W3.7-P1.27-L"
+		(property "Footprint" "EasyEDA:SOT-523-3_L1.6-W0.8-P1.00-LS1.6-BR"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -2864,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_LGE-BC547B_C713613.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_DIODES_BC847BT-7-F_BC847BT-7-F_C156332.html"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -2882,7 +2865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C713613"
+		(property "LCSC Part" "C156332"
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -2955,7 +2938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 120.65 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2980,7 +2963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0603"
 			(at 120.65 109.728 90)
 			(effects
 				(font
@@ -3037,6 +3020,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part" "C843841"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3302,7 +3294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 166.37 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3329,7 +3321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0603"
 			(at 164.592 83.82 90)
 			(effects
 				(font
@@ -3386,6 +3378,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part" "C843841"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3910,7 +3911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 148.59 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3937,7 +3938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0603"
 			(at 146.812 106.68 90)
 			(effects
 				(font
@@ -3996,6 +3997,15 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C843841"
+			(at 148.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "214a8d95-c75e-4a81-823c-e345f437baaf")
 		)
@@ -4012,7 +4022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "EasyEDA:CRCW060310K0FKEC")
 		(at 138.43 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4039,7 +4049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EasyEDA:R0603"
 			(at 136.652 93.98 90)
 			(effects
 				(font
@@ -4096,6 +4106,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part" "C843841"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4207,7 +4226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-201_BD5.3-L9.5-P13.50-D1.4-FD"
+		(property "Footprint" "EasyEDA:USC_L1.7-W1.3-LS2.5-R-RD"
 			(at 166.37 107.95 0)
 			(effects
 				(font
@@ -4234,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132974"
+		(property "LCSC Part" "C1974448"
 			(at 171.45 107.95 0)
 			(effects
 				(font

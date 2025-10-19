@@ -1,4 +1,4 @@
-24813971995198950
+24831564236184904
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57253,6 +57253,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
+C0603
+
+
+0
+2
+2
+EasyEDA
+C0805
+
+
+0
+2
+2
+EasyEDA
 CAP-TH_L5.0-W2.5-P5.00-D1.0
 
 
@@ -57337,6 +57351,13 @@ PDIP-8_L9.3-W6.4-P2.54-LS7.9-BL-1
 8
 8
 EasyEDA
+R0603
+
+
+0
+2
+2
+EasyEDA
 RES-TH_BD4.2-L12.0-P16.00-D0.8
 
 
@@ -57357,6 +57378,34 @@ RES-TH_L22.0-W10.0-P26.00-D1.0
 0
 2
 2
+EasyEDA
+SMA_L4.3-W2.6-LS5.2-RD
+
+
+0
+2
+2
+EasyEDA
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+EasyEDA
+SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR
+
+
+0
+3
+3
+EasyEDA
+SOT-523-3_L1.6-W0.8-P1.00-LS1.6-BR
+
+
+0
+3
+3
 EasyEDA
 TEST-TH_BD2.54-P1.39
 
@@ -57385,6 +57434,27 @@ TO-220-3_L10.0-W4.5-P2.54-T
 0
 3
 3
+EasyEDA
+TO-220-5_L10.2-W4.2-P1.70-L
+
+
+0
+5
+5
+EasyEDA
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL
+
+
+0
+73
+3
+EasyEDA
+USC_L1.7-W1.3-LS2.5-R-RD
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

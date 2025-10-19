@@ -988,7 +988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-201_BD5.3-L9.5-P13.50-D1.4-FD"
+		(property "Footprint" "EasyEDA:USC_L1.7-W1.3-LS2.5-R-RD"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -1015,7 +1015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132974"
+		(property "LCSC Part" "C1974448"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -1377,7 +1377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-201_BD5.3-L9.5-P13.50-D1.4-FD"
+		(property "Footprint" "EasyEDA:USC_L1.7-W1.3-LS2.5-R-RD"
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -1404,7 +1404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132974"
+		(property "LCSC Part" "C1974448"
 			(at 204.47 44.45 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EasyEDA:DO-201_BD5.3-L9.5-P13.50-D1.4-FD"
+		(property "Footprint" "EasyEDA:USC_L1.7-W1.3-LS2.5-R-RD"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -1857,7 +1857,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C132974"
+		(property "LCSC Part" "C1974448"
 			(at 199.39 62.23 0)
 			(effects
 				(font
