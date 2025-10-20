@@ -1,8 +1,18 @@
 ## Peak-and-Hold / Saturation Injector Driver (Hardware)
 
-This repository contains a KiCad design for an automotive injector driver board that supports both Peak-and-Hold (PH) and Saturation drive modes. It's intended for flexible use across different injector types and engine setups.
+This repository contains the hardware for an automotive injector driver board that supports both Peak-and-Hold (PH) and Saturation drive modes. It's intended for flexible use across different injector types and engine setups.
+
+The project is a simplified/ downtuned version of the sytem that I used on my bachelors thesis for driving methanol injectors which would be overkill for most aplications, and is not yet public
 
 Design files are in `src/`.
+
+## Photos / Renders
+
+Below are images from the board.
+
+![Side view render](./pics/render4k_sidehigh.png)
+
+![Top view render](./pics/render4k_top.png)
 
 ## Features
 
@@ -13,7 +23,7 @@ Design files are in `src/`.
 - Stackable: multiple boards can be placed one on top of another to drive more injectors
 - KiCad project files included (`.kicad_sch`, `.kicad_pcb`) under `src/`
 - Max switching frequency: under test (TBD)
-- Proven setup: tested on a Weber 2-cylinder engine with ~12 Ω injectors
+- Proven setup: tested on a Weber 2-cylinder engine with ~12 Ω injectors, and also on low impedance injectors on a testbench
 - Cost-conscious design: uses a common N‑channel MOSFET with discrete flyback/clamp diodes to manage inductive kickback, avoiding expensive automotive‑rated ICs where practical
 - MCP1406 MOSFET gate driver for fast gate charge delivery and sharp turn‑on/turn‑off
 - Adjustable flyback clamp: injector shutoff speed can be tuned by changing the output‑side Zener diode value
@@ -59,20 +69,9 @@ Choose the Zener rating considering MOSFET VDS limits, injector L/R, energy diss
 
 Small interactive simulations demonstrating the kickback clamp concept are available on Falstad:
 
-- Kickback clamp demo 1: [Add your Falstad link here]
-- Kickback clamp demo 2: [Add your Falstad link here]
+- [Single diode vs Zener clamp](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWK0BsB2AnADgEwI5gMw6SFZYQAsOISlhtApgLRhgBQANiMeGDb140YkCMwzQ0bBCkKEMOQmkUJCLElHYATPjQwpdISlhA0tjAGYBDAK6cALu0KUQFgO5aATgHsADgB0ARxgsSAMIMEkwegQcCgUKeBwWNChTWHhMrMgsFw0OAC9DZl42ARoady8-IJCw9jceGjLDFsgGw31W-k1G3mZjYsH2xpaBkzHeEcNSnuH2ADcQZhQXQZWXEuE0ykhwbb2YBHYAc2XVoxMNkAvDjuut8835xofB-vmAZyaZit20iDWTifRinH44f5CchpdqeH6CGjjAE4dhw+jlIwfEx7fhg9Gmf74uLYzTffEtIn-HGuKzA0F9QgGJH4pHTORMwSM5bzM7sy48Lm3TRLPnvLmPQ5GHEHZDHRrknoIHptbS0HoXJXNAxmSy2BxcTHNOYI0zIUS0aCUagYMCxFAIfDkDAIFhgDC9Q3ckyar0en0tH23Dr+gw+1nsbw8U17XYYd3-SIGPYCHgR0wVHaQOOmHGocCmnACdhAA)
 
-Share the URLs and I can embed them directly here for one‑click access.
-
-## Photos / Renders
-
-Below are images from the `pics/` folder.
-
-![Mid render](./pics/mid_render.png)
-
-![Schematic screenshot 1](./pics/Screenshot%202025-10-17%20122452.png)
-
-![Schematic screenshot 2](./pics/Screenshot%202025-10-19%20102944.png)
+- [FET ringing mitigation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEDoBYEE4AcYFwMz5iqoBMqIZyl+yApgLRhgBQAbuBqSIQGyfdSkLJWq9I4bhOnQELAGYhSWEUJH5eq4T25hZUWKRYAnAUu3KtIiRlSQWAYyUrwAdn6XJIimEbMQTKSw2LjMkBiuWBjRrgZwEDCsADY8ml6p3tZxEAww8HAYkORwJFh2GGDYUiwAJpSoIszcpSC8FNw1dPIAhgCuSQAuLABe9SJM-C0NSiCdPf0DDMN0AHZ0xiwA7s5WO2789tueanvFUCwA5mZ81whS51ca6kIZPHdQ59tPSuSv+C+HPZgZSvYHWLagkEtMGfMbgYFwmGA74Mf5w1HVbYtDHosAHCFTbzTNrnDikVzcEnk7gTD4SOySOkGORXamtdoUkBYaSwtm0vlowEC7gowUmV4477TCTAiHfSoitJIlgAe3AtAo9PCGHMBiyulo+BY+FUIAAYgkPmB4AEIAAlOgAZwAlo6Bt0Vg46CwgA)
 
 ## Scaling up (stacking boards)
 
