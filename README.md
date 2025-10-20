@@ -2,7 +2,7 @@
 
 This repository contains the hardware for an automotive injector driver board that supports both Peak-and-Hold (PH) and Saturation drive modes. It's intended for flexible use across different injector types and engine setups.
 
-The project is a simplified/ downtuned version of the sytem that I used on my bachelors thesis for driving methanol injectors which would be overkill for most aplications, and is not yet public
+The project is a simplified/ downtuned version of the sytem that I designed for my bachelors thesis for driving methanol injectors which would be overkill for most aplications, and is not yet public
 
 Design files are in `src/`.
 
